@@ -1,0 +1,51 @@
+/*RODAPE INSTITUCIONAL*/
+.conteiner-institucional{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-institucional a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.rodape-p-fundo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+.rodape-s-fundo{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+.redes-sociais{
+    padding: 5px;
+    display: flex;
+}
+.textosocial{
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #242424;
+}
+.direitos-texto{
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
