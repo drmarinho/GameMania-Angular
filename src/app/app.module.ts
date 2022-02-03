@@ -10,6 +10,9 @@ import { DepartamentosComponent } from './views/departamentos/departamentos.comp
 import { BanerComponent } from './views/baner/baner.component';
 import { GamelistaComponent } from './views/gamelista/gamelista.component';
 import { ProdutoComponent } from './views/produto/produto.component';
+import { LoginComponent } from './views/login/login.component';
+import { OfertasComponent } from './views/ofertas/ofertas.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { ProdutoComponent } from './views/produto/produto.component';
     DepartamentosComponent,
     BanerComponent,
     GamelistaComponent,
-    ProdutoComponent
+    ProdutoComponent,
+    LoginComponent,
+    OfertasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

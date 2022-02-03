@@ -30,6 +30,11 @@ body{
     margin-top: 20px;
     padding: 10px;
 }
+.conteiner-conteudos{
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*GRID DE PRODUTOS*/
 #grid-produtos{

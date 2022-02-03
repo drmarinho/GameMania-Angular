@@ -51,11 +51,12 @@
 }
 .opcmenu ul{
     flex-direction: column;
-    visibility: hidden;
+    display: none;
     list-style: none;
 }
 .menudropd:hover ul{
-    visibility: visible;
+    display: block;
+    position: absolute;
 }
 .opcmenu a:hover{
     background: white;
