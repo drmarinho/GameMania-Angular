@@ -5,7 +5,7 @@
                 <div class="divisor-login">
                     <div class="login-pri">
                         <div><img src="\assets\img\UserLogin.svg" alt="Usuario" width="100px"></div>
-                        <form class="login-form" #loginform="ngForm" (ngSubmit)="euTestei()">
+                        <form class="login-form" #loginform="ngForm" (ngSubmit)="onSubmit()">
                           <div class="label-email">
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="fulano@email.com"[(ngModel)]="loginModel.email">
@@ -16,6 +16,7 @@
                           </div>
                           <input type="submit" value="entrar" id="btn-enviar" class="botao-login">
                         </form>
+                        <div><p id="mensagem" *ngIf=" mensagem !=''">{{mensagem}}</p></div>
                         <div class="recuperarsenha"><a routerLink="">Esqueceu a senha?</a></div>
                     </div>
                     <div class="login-sec">

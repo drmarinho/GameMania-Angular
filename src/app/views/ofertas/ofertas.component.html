@@ -1,13 +1,12 @@
 <div class="titulos"><p>ofertas</p></div>
 <section id="grid-produtos">
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
-    <app-produto></app-produto>
+    <div *ngFor="let ofertando of listaOfertas" class="produto">
+        <div class="fotoproduto"><a href=""><img [src]=ofertando.imagemproduto></a></div>
+        <div class="nomeproduto"><a href="">{{ofertando.nomeproduto}}</a></div>
+        <div class="infoproduto"><p>{{ofertando.descproduto}}</p></div>
+        <div class="precoant"><p>r$ {{ofertando.precoatual}}</p></div>
+        <div class="precoatual"><a href="">r$ {{ofertando.precoanterior}}</a></div>
+        <div class="formapag"><p>a vista</p></div>
+        <div><button class="botaocomprar" type="button">Comprar</button></div>
+    </div>
 </section>

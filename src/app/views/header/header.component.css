@@ -17,6 +17,7 @@
     min-width: 300px;
     border: none;
     padding: 5px;
+    outline: none;
 }
 .iconebar{
     margin-left: 15px;

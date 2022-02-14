@@ -13,6 +13,7 @@ import { ProdutoComponent } from './views/produto/produto.component';
 import { LoginComponent } from './views/login/login.component';
 import { OfertasComponent } from './views/ofertas/ofertas.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

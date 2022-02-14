@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "org.marinho@gmail.com",
+      "password": "$2a$10$MvVGDHr13LhesAqQJVRIXOx4qivA3JtbyVHHg/0xZf24Q02q4gwty",
+      "nome": "Thiago",
+      "id": 1
+    }
+  ],
+  "produtosofertas": [
+    {
+      "id": 1,
+      "imagemproduto": "/assets/img/Produtos/P01.png",
+      "nomeproduto": "processador intel core i7 11700k",
+      "descproduto": "8-core, 16-threads, 3.6ghz (5.0ghz turbo), cache 16mb, lga1200.",
+      "precoatual": "2.499,00",
+      "precoanterior": "4.199,00"
+    },
+    {
+      "id": 2,
+      "imagemproduto": "/assets/img/Produtos/P02.png",
+      "nomeproduto": "pc orion core i9 rtx 3090",
+      "descproduto": "intel core i9 rtx3090 resfriamento liquido ssd 2tb nvme",
+      "precoatual": "15.499,00",
+      "precoanterior": "18.199,00"
+    },
+    {
+      "id": 3,
+      "imagemproduto": "/assets/img/Produtos/P03.png",
+      "nomeproduto": "headset xbox sem fio",
+      "descproduto": "driver de 50 mm bluetooth 5 tecnologia anti ruidos cor preta",
+      "precoatual": "1.099,00",
+      "precoanterior": "1.199,00"
+    },
+    {
+      "id": 4,
+      "imagemproduto": "/assets/img/Produtos/P04.png",
+      "nomeproduto": "xbox series s 500 gb ssd 4k",
+      "descproduto": "xbox series s 2021 nova geração 512gb - 1 controle branco",
+      "precoatual": "2.399,00",
+      "precoanterior": "3.199,00"
+    },
+    {
+      "id": 5,
+      "imagemproduto": "/assets/img/Produtos/P05.png",
+      "nomeproduto": "Iphone 13 pro 256 gb ios azul ",
+      "descproduto": "iPhone 13. Tela Super Retina XDR de 6,1 polegadas. Ceramic Shield",
+      "precoatual": "8.199,00",
+      "precoanterior": "9.199,00"
+    },
+    {
+      "id": 6,
+      "imagemproduto": "/assets/img/Produtos/P010.png",
+      "nomeproduto": "playstation 5 1tb ssd 4k",
+      "descproduto": "825GB de ssd, 16GB de memória GDDR6 e processador 8 nucleos 3.5ghz",
+      "precoatual": "7.199,00",
+      "precoanterior": "8.199,00"
+    },
+    {
+      "imagemproduto": "/assets/img/Produtos/P06.png",
+      "nomeproduto": "samsung s21 ultra 256 gb cinza",
+      "descproduto": "256gb 5g wi-fi tela 6.8 dual chip 12gb ram camera quadrupla selfie 40MP",
+      "precoatual": "6.199,00",
+      "precoanterior": "7.199,00",
+      "id": 7
+    }
+  ]
+}
