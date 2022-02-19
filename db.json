@@ -9,12 +9,12 @@
   ],
   "produtosofertas": [
     {
-      "id": 1,
       "imagemproduto": "/assets/img/Produtos/P01.png",
       "nomeproduto": "processador intel core i7 11700k",
       "descproduto": "8-core, 16-threads, 3.6ghz (5.0ghz turbo), cache 16mb, lga1200.",
-      "precoatual": "2.499,00",
-      "precoanterior": "4.199,00"
+      "precoatual": "3.499,00",
+      "precoanterior": "5.199,00",
+      "id": 1
     },
     {
       "id": 2,
